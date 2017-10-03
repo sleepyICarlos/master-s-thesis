@@ -1,0 +1,68 @@
+\def\logooffset{271}
+\def\fakultaetlogo{\epsfig{file=../pics/logos/PH.pdf,height=9.605mm}}
+\def\wsilogo{\epsfig{file=../pics/logos/wsiLogo.pdf,height=9.605mm}}
+\def\tumlogo{\epsfig{file=../pics/logos/tumlogo.pdf,height=9.605mm}}
+\def\deadline{August 2017}
+\def\title{Electrical Readout of NV$^{-}$ Centers in\\ Diamond}	% $_\mathsf{2}$
+\def\author{Felix Hartz}
+\def\typeOfThesis{Master Thesis}
+
+\newlength{\addresstop}
+\newlength{\titletop}
+\newlength{\firstpagespace}
+\newlength{\titleskip}
+
+\renewcommand\maketitle{
+\begin{titlepage}
+  {\noindent\setlength{\unitlength}{1mm}%
+  \begin{picture}(0,0)(25,\logooffset)
+    \put(25,272){\fakultaetlogo}	% 25,272
+    \put(40,272){\wsilogo}
+    \put(176,272){\tumlogo}				%176,272
+  \end{picture}}%
+  %
+  \setlength{\addresstop}{4.44cm}
+  %
+  \setlength{\titletop}{9.5cm}
+  %
+  \setlength{\firstpagespace}{4.44cm-1in-\headsep-\headheight+\baselineskip}
+  \vspace*{\firstpagespace}%
+
+  \fontsize{12}{16}\selectfont\sffamily Walter Schottky Institut\\
+  Center for Nanotechnology and Nanomaterials \\ %Zentralinstitut f\"ur physikalische Grundlagen der Halbleiterelektronik \\
+  Fakult\"at f\"ur Physik der Technischen Universit\"at M\"unchen
+
+% 
+   
+   \setlength{\titleskip}{\titletop-\addresstop-4\baselineskip}
+   \vspace{\titleskip} 
+%   % Anpassung der Schriftgroesse des Titels exakt 15 - Durchschuss 20
+  \fontsize{20.74}{26}\selectfont\sffamily{\textcolor{tumblauTitel}{\title}}\par\smallskip
+  \vspace{2cm}
+  \fontsize{12}{16}\selectfont\textbf{\author}\par\smallskip
+  \vspace{1cm}
+  \fontsize{12}{16}\selectfont\sffamily\typeOfThesis\par\smallskip
+%   \vspace{20\baselineskip}
+    \vfill
+   \deadline
+\end{titlepage}
+}
+
+\newcommand{\emptypage}{
+  \mbox{}
+  \thispagestyle{empty}
+  \newpage
+}
+
+\newcommand{\Ehrenwort}{
+\markright{Erkl\"arung der Selbstst\"andigkeit}
+\cleardoublepage
+\section*{Erkl\"arung der Selbstst\"andigkeit}
+
+\vspace{\baselineskip}
+Ich erkl\"are hiermit, dass ich die vorliegende Arbeit selbstst\"andig und ohne Benutzung anderer als der angegebenen Hilfsmittel und Quellen angefertigt habe.
+
+\vspace{2cm}
+
+\hspace{1.5cm} Garching, den  \hspace{5cm} \author
+}
