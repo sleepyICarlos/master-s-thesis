@@ -1,0 +1,186 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\selectlanguage}[1]{\relax}
+\input{babelbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[Acosta \bbletal{}(2010{\natexlab{a}})]{Acosta2010_NV_T_sensor}
+V.~M. Acosta, E.~Bauch, M.~P. Ledbetter, A.~Waxman, L.-S. Bouchard \bbland{}
+  D.~Budker: \emph{Temperature Dependence of the Nitrogen-Vacancy Magnetic
+  Resonance in Diamond}, Phys. Rev. Lett. \textbf{104}, 070801
+  (2010{\natexlab{a}}).
+
+\bibitem[Acosta \bbletal{}(2010{\natexlab{b}})]{Acosta2010}
+V.~M. Acosta, A.~Jarmola, E.~Bauch \bbland{} D.~Budker: \emph{Optical
+  properties of the nitrogen-vacancy singlet levels in diamond}, Phys. Rev. B
+  \textbf{82}, 201202 (2010{\natexlab{b}}).
+
+\bibitem[Aslam \bbletal{}(2013)]{Aslam2013}
+N.~Aslam, G.~Waldherr, P.~Neumann, F.~Jelezko \bbland{} J.~Wrachtrup:
+  \emph{Photo-induced ionization dynamics of the nitrogen vacancy defect in
+  diamond investigated by single-shot charge state detection}, New Journal of
+  Physics \textbf{15}, 013064 (2013).
+
+\bibitem[Bar-Gill \bbletal{}(2013)]{Bar-Gill2013}
+N.~Bar-Gill, L.~M. Pham, A.~Jarmola, D.~Budker \bbland{} R.~L. Walsworth:
+  \emph{Solid-state electronic spin coherence time approaching one second},
+  Nature Communications \textbf{4}, 1743 EP  (2013), article.
+
+\bibitem[Bar-Gill \bbland{} Retzker(2017)]{Bar-Gill_2017_nanosamples}
+N.~Bar-Gill \bbland{} A.~Retzker: \emph{Observing chemical shifts from
+  nanosamples}, Science \textbf{357}, 38 (2017).
+
+\bibitem[Beha \bbletal{}(2012)]{Beha2012}
+K.~Beha, A.~Batalov, N.~B. Manson, R.~Bratschitsch \bbland{} h.~Leitenstorfer,
+  A.: \emph{Optimum Photoluminescence Excitation and Recharging Cycle of Single
+  Nitrogen-Vacancy Centers in Ultrapure Diamond}, Phys. Rev. Lett.
+  \textbf{109}, 097404 (2012).
+
+\bibitem[Bourgeois \bbletal{}(2015)]{Bourgeois15}
+E.~Bourgeois, A.~Jarmola, P.~Siyushev, M.~Gulka, J.~Hruby, F.~Jelezko,
+  D.~Budker \bbland{} M.~Nesladek: \emph{Photoelectric detection of electron
+  spin resonance of nitrogen-vacancy centres in diamond}, Nature Communications
+  \textbf{6}, 8577 (2015).
+
+\bibitem[Bourgeois \bbletal{}(2017)]{Bourgeois2016}
+E.~Bourgeois, E.~Londero, K.~Buczak, J.~Hruby, M.~Gulka, Y.~Balasubramaniam,
+  G.~Wachter, J.~Stursa, K.~Dobes, F.~Aumayr, M.~Trupke, A.~Gali \bbland{}
+  M.~Nesladek: \emph{Enhanced photoelectric detection of NV magnetic resonances
+  in diamond under dual-beam excitation}, Phys. Rev. B \textbf{95}, 041402
+  (2017).
+
+\bibitem[Brenneis \bbletal{}(2015)]{Brenneis2015}
+A.~Brenneis, L.~Gaudreau, M.~Seifert, H.~Karl, M.~S. Brandt, H.~Huebl, J.~A.
+  Garrido, K.~H. L. \bbland{} A.~W. Holleitner: \emph{Ultrafast electronic
+  readout of diamond nitrogen-vacancy centres coupled to graphene}, Nat Nano
+  \textbf{10}, 135 (2015), letter.
+
+\bibitem[Chen \bbletal{}(2017)]{Chen2017}
+J.~Chen, S.~Lourette, K.~Rezai, T.~Hoelzer, M.~Lake, M.~Nesladek, L.-S.
+  Bouchard, P.~Hemmer \bbland{} D.~Budker: \emph{Optical quenching and recovery
+  of photoconductivity in single-crystal diamond}, Applied Physics Letters
+  \textbf{110}, 011108 (2017).
+
+\bibitem[Choy \bbletal{}(2013)]{Choy2013_plasmonic_grating}
+J.~T. Choy, I.~Bulu, B.~J.~M. Hausmann, E.~Janitz, I.-C. Huang \bbland{}
+  M.~Lončar: \emph{Spontaneous emission and collection efficiency enhancement
+  of single emitters in diamond via plasmonic cavities and gratings}, Applied
+  Physics Letters \textbf{103}, 161101 (2013).
+
+\bibitem[Christle \bbletal{}(2015)]{Chris15}
+D.~J. Christle, A.~L. Falk, P.~Andrich, P.~V. Klimov, J.~U. Hassan, N.~T. Son,
+  E.~Janz{\'e}n, T.~Ohshima \bbland{} D.~D. Awschalom: \emph{Isolated electron
+  spins in silicon carbide with millisecond coherence times}, Nature materials
+  \textbf{14}, 160 (2015).
+
+\bibitem[Fuchs \bbletal{}(2017)]{Fuchs2015}
+F.~Fuchs, B.~Stender, M.~Trupke, D.~Simin, J.~Pflaum, V.~Dyakonov \bbland{}
+  G.~V. Astakhov: \emph{Engineering near-infrared single-photon emitters with
+  optically active spins in ultrapure silicon carbideEngineering near-infrared
+  single-photon emitters with optically active spins in ultrapure silicon
+  carbide}, Applied Physics Letters \textbf{6}, 7578 (2017).
+
+\bibitem[Gali(2011)]{Gali2011}
+A.~Gali: \emph{Time-dependent density functional study on the excitation
+  spectrum of point defects in semiconductors}, physica status solidi (b)
+  \textbf{248}, 1337 (2011).
+
+\bibitem[Gruber \bbletal{}(1997)]{Gruber1997}
+A.~Gruber, A.~Dr{\"a}benstedt, C.~Tietz, L.~Fleury, J.~Wrachtrup \bbland{}
+  C.~Von~Borczyskowski: \emph{Scanning confocal optical microscopy and magnetic
+  resonance on single defect centers}, Science \textbf{276}, 2012 (1997).
+
+\bibitem[Götz \bbletal{}(1993)]{Goetz1993}
+W.~Götz, A.~Schöner, G.~Pensl, W.~Suttrop, W.~J. Choyke, R.~Stein \bbland{}
+  S.~Leibenzeder: \emph{Nitrogen donors in 4H-silicon carbide}, Journal of
+  Applied Physics \textbf{73}, 3332 (1993).
+
+\bibitem[Hain \bbletal{}(2014)]{Hain2014}
+T.~C. Hain, F.~Fuchs, V.~A. Soltamov, P.~G. Baranov, G.~V. Astakhov, T.~Hertel
+  \bbland{} V.~Dyakonov: \emph{Excitation and recombination dynamics of
+  vacancy-related spin centers in silicon carbide}, Journal of Applied Physics
+  \textbf{115}, 133508 (2014).
+
+\bibitem[Hauf \bbletal{}(2014)]{Hauf2014}
+M.~V. Hauf, P.~Simon, N.~Aslam, M.~Pfender, P.~Neumann, S.~Pezzagna, J.~Meijer,
+  J.~Wrachtrup, M.~Stutzmann, F.~Reinhard \bbletal{}: \emph{Addressing single
+  nitrogen-vacancy centers in diamond with transparent in-plane gate
+  structures}, Nano letters \textbf{14}, 2359 (2014).
+
+\bibitem[Hopper \bbletal{}(2016)]{Hopper2016}
+D.~A. Hopper, R.~R. Grote, A.~L. Exarhos \bbland{} L.~C. Bassett:
+  \emph{Near-infrared-assisted charge control and spin readout of the
+  nitrogen-vacancy center in diamond}, Phys. Rev. B \textbf{94}, 241201 (2016).
+
+\bibitem[Hrubesch \bbletal{}(2017)]{Hrubesch17_eff_readout}
+F.~M. Hrubesch, G.~Braunbeck, M.~Stutzmann, F.~Reinhard \bbland{} M.~S. Brandt:
+  \emph{Efficient Electrical Spin Readout of ${\mathrm{NV}}^{\ensuremath{-}}$
+  Centers in Diamond}, Phys. Rev. Lett. \textbf{118}, 037601 (2017).
+
+\bibitem[Isberg \bbletal{}(2002)]{Isberg2002_high_mobility}
+J.~Isberg, J.~Hammersberg, E.~Johansson, T.~Wikstr{\"o}m, D.~J. Twitchen, A.~J.
+  Whitehead, S.~E. Coe \bbland{} G.~A. Scarsbrook: \emph{High carrier mobility
+  in single-crystal plasma-deposited diamond}, Science \textbf{297}, 1670
+  (2002).
+
+\bibitem[Itoh \bbland{} Watanabe(2014)]{Itoh2014}
+K.~M. Itoh \bbland{} H.~Watanabe: \emph{Isotope engineering of silicon and
+  diamond for quantum computing and sensing applications}, MRS Communications
+  \textbf{4}, 143–157 (2014).
+
+\bibitem[Kawarada(1996)]{Kawarada1996}
+H.~Kawarada: \emph{Hydrogen-terminated diamond surfaces and interfaces},
+  Surface Science Reports \textbf{26}, 205 (1996).
+
+\bibitem[MaletinskyP. \bbletal{}(2012)]{Maletinsky2012}
+MaletinskyP., HongS., G.~S., HausmannB., L.~D., W.~L., LoncarM. \bbland{}
+  YacobyA.: \emph{A robust scanning diamond sensor for nanoscale imaging with
+  single nitrogen-vacancy centres}, Nat Nano \textbf{7}, 320 (2012).
+
+\bibitem[Maze \bbletal{}(2011)]{Maze11_NV_theory}
+J.~Maze, A.~Gali, E.~Togan, Y.~Chu, A.~Trifonov, E.~Kaxiras \bbland{} M.~Lukin:
+  \emph{Properties of nitrogen-vacancy centers in diamond: the group theoretic
+  approach}, New Journal of Physics \textbf{13}, 025025 (2011).
+
+\bibitem[Muhonen \bbletal{}(2014)]{Muhonen2014}
+J.~T. Muhonen, J.~P. Dehollain, A.~Laucht, F.~E. Hudson, R.~Kalra,
+  T.~Sekiguchi, K.~M. Itoh, D.~N. Jamieson, J.~C. McCallum, A.~S. Dzurak
+  \bbland{} A.~Morello: \emph{Storing quantum information for 30 seconds in a
+  nanoelectronic device}, Nat Nano \textbf{9}, 986 (2014), letter.
+
+\bibitem[Rohrer(1998)]{Rohrer1998}
+E.~Rohrer: \emph{Photoleitungs-Spektroskopie an Diamant} (Schriftenreihe des
+  Walter Schottky Instituts, 1998).
+
+\bibitem[Shields \bbletal{}(2015)]{Shields2015}
+B.~J. Shields, Q.~Unterreithmeier, N.~De~Leon, H.~Park \bbland{} M.~D. Lukin:
+  \emph{Efficient readout of a single spin state in diamond via spin-to-charge
+  conversion}, Physical review letters \textbf{114}, 136402 (2015).
+
+\bibitem[Siyushev \bbletal{}(2013)]{Siyushev2013}
+P.~Siyushev, H.~Pinto, M.~V\"or\"os, A.~Gali, F.~Jelezko \bbland{}
+  J.~Wrachtrup: \emph{Optically Controlled Switching of the Charge State of a
+  Single Nitrogen-Vacancy Center in Diamond at Cryogenic Temperatures}, Phys.
+  Rev. Lett. \textbf{110}, 167402 (2013).
+
+\bibitem[Stanwix \bbletal{}(2010)]{Stanwix2010}
+P.~L. Stanwix, L.~M. Pham, J.~R. Maze, D.~Le~Sage, T.~K. Yeung, P.~Cappellaro,
+  P.~R. Hemmer, A.~Yacoby, M.~D. Lukin \bbland{} R.~L. Walsworth:
+  \emph{Coherence of nitrogen-vacancy electronic spin ensembles in diamond},
+  Phys. Rev. B \textbf{82}, 201201 (2010).
+
+\bibitem[Sze \bbland{} Kwok(2007)]{SZE07}
+S.~M. Sze \bbland{} K.~N. Kwok: \emph{Semiconductor Devices} (Wiley, 2007).
+
+\bibitem[Walker(1979)]{Walker79}
+J.~Walker: \emph{Optical absorption and luminescence in diamond}, Reports on
+  Progress in Physics \textbf{42}, 1605 (1979).
+
+\bibitem[Zheng \bbletal{}(2017)]{Zheng2017plasmongrating}
+J.~Zheng, A.~C. Liapis, E.~H. Chen, C.~T. Black \bbland{} D.~Englund:
+  \emph{Near-unity collection efficiency from quantum emitters in bulk diamond
+  using chirped circular dielectric gratings}, arXiv preprint arXiv:1706.07566
+  (2017).
+
+\end{thebibliography}
