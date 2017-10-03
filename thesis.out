@@ -1,0 +1,51 @@
+\BOOKMARK [0][-]{chapter.1}{NV- center in Diamond as a Future Quantum Memory Candidate}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Theory}{}% 2
+\BOOKMARK [1][-]{section.2.1}{High Purity Single Crystal Diamond}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{NV Centers in Diamond}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{NV- Center Level Diagram and Photoluminescence Spectrum}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.3}{Generation of Photocurrent in Diamond}{section.2.1}% 6
+\BOOKMARK [1][-]{section.2.2}{Electron Spin Resonance}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.1}{Rotating Frame System}{section.2.2}% 8
+\BOOKMARK [1][-]{section.2.3}{Metal Semiconductor Metal Photodetector Operation Principle}{chapter.2}% 9
+\BOOKMARK [0][-]{chapter.3}{Diamond Samples}{}% 10
+\BOOKMARK [1][-]{section.3.1}{Single Crystal Diamond Substrates}{chapter.3}% 11
+\BOOKMARK [1][-]{section.3.2}{Sample Processing}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.3}{Current-Voltage Characteristics}{chapter.3}% 13
+\BOOKMARK [2][-]{subsection.3.3.1}{Photocurrent}{section.3.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Experimental Setup for pEDMR and ODMR Detection of NV- Centers in Diamond}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Optics}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{Laser Sources}{section.4.1}% 17
+\BOOKMARK [2][-]{subsection.4.1.2}{Confocal Microscopy}{section.4.1}% 18
+\BOOKMARK [2][-]{subsection.4.1.3}{Single Photon Avalanche Detector for NV- Fluorescence detection}{section.4.1}% 19
+\BOOKMARK [1][-]{section.4.2}{Electronics}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.2.1}{Low Noise Transimpedance Amplifier for Photocurrent Detection}{section.4.2}% 21
+\BOOKMARK [2][-]{subsection.4.2.2}{Microwave Circuit}{section.4.2}% 22
+\BOOKMARK [1][-]{section.4.3}{Timing Control}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.3.1}{Excitation Pulse Sequence}{section.4.3}% 24
+\BOOKMARK [0][-]{chapter.5}{Basic Experiments}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Photolumincescence Detection and ODMR of NV- centers}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.1.1}{Spatial Resolution of the Photoluminescence Detection}{section.5.1}% 27
+\BOOKMARK [2][-]{subsection.5.1.2}{ODMR on NV- centers}{section.5.1}% 28
+\BOOKMARK [1][-]{section.5.2}{Photocurrent Detection}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.2.1}{Two Photon Ionization of NV- center}{section.5.2}% 30
+\BOOKMARK [2][-]{subsection.5.2.2}{Characteristics of the MSM Photodetector}{section.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.2.3}{Mapping the photocurrent}{section.5.2}% 32
+\BOOKMARK [1][-]{section.5.3}{Pulsed Electrical Detected Magnetic Resonance on NV- Centers}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.3.1}{Electron Spin Resonance}{section.5.3}% 34
+\BOOKMARK [2][-]{subsection.5.3.2}{Optimization of pEDMR Dynamics}{section.5.3}% 35
+\BOOKMARK [0][-]{chapter.6}{Dual laser excitation of the NV- center}{}% 36
+\BOOKMARK [1][-]{section.6.1}{520 nm and 450 nm Dual Laser NV- Ionization}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.1.1}{Alignment of Laser Spots}{section.6.1}% 38
+\BOOKMARK [2][-]{subsection.6.1.2}{450 nm Laser Photoionization of the NV- Center}{section.6.1}% 39
+\BOOKMARK [2][-]{subsection.6.1.3}{Pulse Sequence for Green and Blue Laser Assisted pEDMR on NV- centers}{section.6.1}% 40
+\BOOKMARK [1][-]{section.6.2}{Green Red Excitation}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.2.1}{Laser Alignment}{section.6.2}% 42
+\BOOKMARK [2][-]{subsection.6.2.2}{Dual Laser Photoionization Protocol prohibiting Ns0 Ionization}{section.6.2}% 43
+\BOOKMARK [0][-]{chapter.7}{Outlook and Conclusions}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Laser Characteristics}{}% 45
+\BOOKMARK [1][-]{section.A.1}{Mathematical Discussion on Laser Calibration}{appendix.A}% 46
+\BOOKMARK [1][-]{section.A.2}{Laser Power Calibration}{appendix.A}% 47
+\BOOKMARK [2][-]{subsection.A.2.1}{Blue Laser}{section.A.2}% 48
+\BOOKMARK [2][-]{subsection.A.2.2}{Green Laser}{section.A.2}% 49
+\BOOKMARK [2][-]{subsection.A.2.3}{NIR Laser}{section.A.2}% 50
+\BOOKMARK [1][-]{section.A.3}{Laser Suppression in the Photon Detection System}{appendix.A}% 51

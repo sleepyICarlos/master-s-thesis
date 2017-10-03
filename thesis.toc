@@ -1,0 +1,55 @@
+\select@language {english}
+\select@language {ngerman}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}NV$^-$ center in Diamond as a Future Quantum Memory Candidate}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}High Purity Single Crystal Diamond}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}NV Centers in Diamond}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}NV$^-$ Center Level Diagram and Photoluminescence Spectrum}{4}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Generation of Photocurrent in Diamond}{5}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Electron Spin Resonance}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Rotating Frame System}{7}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Metal Semiconductor Metal Photodetector Operation Principle}{8}{section.2.3}
+\contentsline {chapter}{\numberline {3}Diamond Samples}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Single Crystal Diamond Substrates}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Sample Processing}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Current-Voltage Characteristics}{16}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Photocurrent}{17}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {4}Experimental Setup for pEDMR and ODMR Detection of NV$^-$ Centers in Diamond}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Optics}{19}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Laser Sources}{19}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Confocal Microscopy}{22}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Single Photon Avalanche Detector for NV$^-$ Fluorescence detection}{24}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Electronics}{25}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Low Noise Transimpedance Amplifier for Photocurrent Detection}{25}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Microwave Circuit}{26}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Timing Control}{27}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Excitation Pulse Sequence}{28}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Basic Experiments}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Photolumincescence Detection and ODMR of NV$^-$ centers}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Spatial Resolution of the Photoluminescence Detection}{31}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}ODMR on NV$^-$ centers}{33}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Photocurrent Detection}{37}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Two Photon Ionization of NV$^-$ center}{37}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Characteristics of the MSM Photodetector}{38}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Mapping the photocurrent}{40}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Pulsed Electrical Detected Magnetic Resonance on NV$^-$ Centers}{42}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Electron Spin Resonance}{43}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Optimization of pEDMR Dynamics}{46}{subsection.5.3.2}
+\contentsline {chapter}{\numberline {6}Dual laser excitation of the NV$^-$ center}{49}{chapter.6}
+\contentsline {section}{\numberline {6.1}520 nm and 450 nm Dual Laser NV$^-$ Ionization}{49}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Alignment of Laser Spots}{49}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}450 nm Laser Photoionization of the NV$^-$ Center}{51}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Pulse Sequence for Green and Blue Laser Assisted pEDMR on NV$^-$ centers}{53}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Green Red Excitation}{57}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Laser Alignment}{57}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Dual Laser Photoionization Protocol prohibiting N$_\text {s}^0$ Ionization}{59}{subsection.6.2.2}
+\contentsline {chapter}{\numberline {7}Outlook and Conclusions}{63}{chapter.7}
+\contentsline {chapter}{\numberline {A}Laser Characteristics}{67}{appendix.A}
+\contentsline {section}{\numberline {A.1}Mathematical Discussion on Laser Calibration}{67}{section.A.1}
+\contentsline {section}{\numberline {A.2}Laser Power Calibration}{69}{section.A.2}
+\contentsline {subsection}{\numberline {A.2.1}Blue Laser}{69}{subsection.A.2.1}
+\contentsline {subsection}{\numberline {A.2.2}Green Laser}{69}{subsection.A.2.2}
+\contentsline {subsection}{\numberline {A.2.3}NIR Laser}{69}{subsection.A.2.3}
+\contentsline {section}{\numberline {A.3}Laser Suppression in the Photon Detection System}{69}{section.A.3}
+\select@language {ngerman}

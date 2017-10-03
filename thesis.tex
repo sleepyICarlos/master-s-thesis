@@ -1,0 +1,202 @@
+\documentclass[paper=A4,BCOR=8.00mm,DIV=1]{scrbook}				%DIV=calc berechnet ausgehend von Schriftgrosse etc selbst einen sinnvollen wert
+%  headsepline=true,headinclude=false,				% Horizontale Linie unter Kopfzeilen
+%  footsepline=false,footinclude=false,				% Horizontale Linie ueber Fusszeilen
+%  pagesize,							% Diese Option uebergibt dem pdf die Seitengroesse
+%  fontsize=12,chapterprefix=true,twoside,draft=false,		%
+%  headings=normal,						% Hiermit wird fuer kleine Ueberschriften gesorgt
+%toc=bib,toc=graduated,					% Eintrag fuer bibliography in table of contents
+%								% Eintraege einruecken im toc
+%  numbers=noenddot,						% Endpunkt bei chapter1. und 1.1. entfernt
+
+
+
+
+%  parskip=half+
+%  %cleardoublepage=plain% sorgt dafuer, dass leere Seiten nummeriert werden
+
+																		% fuer definecolor
+%\hyphenation{nan-o-struc-ture}
+%*******************************************************************************
+% eigene Pakete und Einstellungen etc.
+%===============
+\usepackage[ngerman,english]{babel} 			% zwei Sprachen benutzen!
+\usepackage[T1]{fontenc}									% T1 Kodierung anschalten, um alle 256 Europa-typischen Buchstaben zu bieten 
+																					% z.B. Umlaute
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+%\usepackage[bitstream-charter]{mathdesign}		% Hier wird die Schriftart fuer den Fliesstext gewaehlt
+\usepackage[sort,round,authoryear]{natbib} 		% sortiert, runde Klammern, Autor-Jahr-Literaturverweise, 
+%\usepackage{setspace}
+%\usepackage{mathptmx}        				%Postscript fonts
+\usepackage{array}      				% fuer die einzige Tabelle
+\usepackage[final]{graphicx}   				% fuer die Bilder, [draft] -> nur Rahmen statt Bilder
+\usepackage{epsfig}					% fuer Grafiken auf der Titelseite
+\usepackage{xcolor}					% fuer \definecolor{rgb}{R,G,B}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}		% Mathesatz
+%\usepackage[format=plain,labelfont=bf,normal,font=sf]{caption} % up, it, sl, sc,md, bf, rm, sf, or tt sets the font attribute of the caption labels.
+\usepackage[position=top,singlelinecheck=false]{subfig}	
+\usepackage{hyperref}
+%\usepackage{cite}					% improve numerical citations, dont use with natbib (natbib uses sort instead)
+\usepackage[german,disable]{todonotes}				% insert todo-notes, [disable] -> todo notes werden abgeschaltet
+\usepackage{siunitx}					% enables input of units by name in formulas (e.g. \meter gives m)
+\usepackage{lipsum}					% for lipsum-text to test layout
+\usepackage{url}					% besserer Zeilenumbruch bei urls in der bibliography
+\usepackage[utf8]{inputenc}		% utf8 unter Linux besser als T1 oder latin9 (auf mac-os: macce)
+\usepackage{tikz}					% package for drawings (not used)
+\usepackage{listings}					% package for source code listings
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{sidecap} \sidecaptionvpos{figure}{t}  %\usepackage[option]{sidecap}:outercaption (default)
+\usepackage{bbold}
+%\usepackage{listings} \lstset{numbers=left, numberstyle=\tiny, numbersep=5pt} \lstset{language=Python} 
+
+%\usepackage{pdflscape}					% package for landscape pages
+
+%\usepackage{extramarks}
+
+\renewcommand{\encodingdefault}{T1}
+\renewcommand{\rmdefault}{cmr}		% Computer Modern as serif font
+%\renewcommand{\sfdefault}{lhv}		% TUM Helvetica as sans serif font
+%\renewcommand\@ptsize{12}
+%\renewcommand{\rmdefault}{cmr}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+%\parindent 0em 						% Einzug bei neuem Absatz
+\setcapindent{0.em} 					% Hier kann man den Einzug bei mehrzeiligen captions waehlen
+\graphicspath{{pics/}} 					%sucht Grafiken im Verzeichnis pics und dessen Unterverzeichnisse (//)
+% eigene Farben
+%===============
+\definecolor{tumblauTitel}{rgb}{0,.459,.737}			% TUM-Blau 0 101 189
+\definecolor{tumgruen}{rgb}{.4,.6,.11}				% TUM-Gruen 103 154 29
+
+% Stile aendern
+%===============
+\addtokomafont{chapter}{\normalfont\sffamily\color{tumblauTitel}\fontsize{25}{33}\selectfont} 		% Vorschalten von \normalfont schaltet ab, dass die Ueberschriften fett gesetzt werden
+\addtokomafont{section}{\normalfont\sffamily\color{tumblauTitel}\fontsize{17.28}{20}\selectfont}
+\addtokomafont{captionlabel}{\normalfont\sffamily\fontsize{12}{12}\selectfont}
+\addtokomafont{caption}{\itshape}		% caption of figures, tables
+%\setstretch{1.2}											% Um beliebige Werte des Duchschusses zu wÃ€hlen
+
+%  Abkuerzungen und eigene Befehle
+%===============
+\renewcommand{\d}{\text{d}}		% Differentialoperator in Formeln nicht italic
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\newcommand{\ket}[1]{\left|#1\right\rangle}
+\newcommand{\braket}[2]{\left\langle #1|#2\right\rangle}
+\renewcommand{\vec}[1]{\boldsymbol{#1}}										% typeset vectors in bold face
+\newcommand\relphantom[1]{\mathrel{\phantom{#1}}}
+\newcommand{\opbf}[1]{\hat{\mathbf{#1}}}							% operator bold face
+\newcommand{\Pbn}{\mathrm{P}_\mathrm{b0}}			% P b null
+\newcommand{\edP}{^\mathrm{31}\mathrm{P}}			% einundreissig P
+\newcommand{\natSi}{^\mathrm{nat}\mathrm{P}}			% natural P
+\newcommand{\Tm}{$T_\mathrm{M}$}
+%\newcommand{\NV-}{$NV^{-}$ center}
+\newcommand{\cuu}{c_{\uparrow\uparrow}}
+\newcommand{\cud}{c_{\uparrow\downarrow}}
+\newcommand{\cdu}{c_{\downarrow\uparrow}}
+\newcommand{\cdd}{c_{\downarrow\downarrow}}
+
+\newcommand{\mean}[1]{\langle #1 \rangle}
+
+\newcommand{\muB}{\mu_\mathrm{B}}
+%\DeclareUnicodeCharacter{2107}{\Efield}
+
+\newcommand{\Rphitwo}{
+\left(\begin{matrix}
+  (R_{\Phi,2})_{11} & (R_{\Phi,2})_{12} \\
+  (R_{\Phi,2})_{21} & (R_{\Phi,2})_{22}
+\end{matrix}\right)
+}
+\newcommand{\circled}[1]{\raisebox{.5pt}{\textcircled{\raisebox{-.9pt}{#1}}}}
+
+% Konfiguration listings
+\lstset{
+    showstringspaces=false,
+    %stringstyle=\color{yellow}	% boeser Befehl, macht bei single quotes fehlermeldung...
+    %basicstyle=\scriptsize\ttfamily,
+    basicstyle=\tiny\ttfamily,
+    language=Matlab,
+    numbers=left,
+    numberstyle=\tiny,
+    firstnumber=0,
+    stepnumber=10,
+    keywordstyle=\color{tumblauTitel},
+    commentstyle=\color{tumgruen},
+    breaklines=true,
+    upquote=true
+   % emph={for}, emphstyle=\color{red}
+}
+
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[2]{%
+\executeiffilenewer{#1.svg}{#1.pdf}%
+{inkscape -z -D --file=#1.svg %
+--export-pdf=#1.pdf}%
+\includegraphics[#2]{#1.pdf}
+}
+
+\recalctypearea			% Die Berechnung des Satzspiegels muss nach!! der Wahl der Schrift und des Durchschusses geschehen
+%*******************************************************************************
+
+\begin{document}
+
+% Titelseiten
+\input{chapters/coverTUM}
+\frontmatter		% arabische Nummerierung
+\maketitle
+% %\mbox{}
+\emptypage
+
+% Abstract
+%================
+\selectlanguage{ngerman}
+%\include{chapters/zusammenfassung}
+
+\selectlanguage{english}
+
+% % \clearpage
+
+% table of contents
+%================
+\tableofcontents
+
+% chapters
+%================
+\mainmatter			% roemische Nummerierung
+
+\include{chapters/intro/intro}
+\include{chapters/basics/basics}
+\include{chapters/samples/samples}
+\include{chapters/setup/setup}
+\include{chapters/experiments/experiments}
+\include{chapters/summary/summary}
+
+% appendix
+================
+\begin{appendix}
+\include{chapters/appendix/appendix}
+\label{appendix}
+\end{appendix}
+
+% Literaturverzeichnnis 
+%================
+%Literaturverzeichnis mit BibTeX generieren
+\backmatter
+
+\bibliographystyle{maxbib110925}	%unsrtnat, chicago, abbrvnat, plainnat, maxbib2, maxbib110925
+\bibliography{literatur/literatur}
+
+% Danksagung, Erklaerung der Selbststaendigkeit 
+%================
+% %\cleardoublepage
+% 
+\selectlanguage{ngerman}
+%\include{chapters/danksagung/danksagung}
+%\Ehrenwort
+\end{document}
+% ------------------------------------------------------------------------ 
